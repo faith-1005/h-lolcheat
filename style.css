@@ -1,0 +1,46 @@
+body{
+
+    background: linear-gradient(#4a4e69 0%, #f2e9e4 100%);
+    text-align: center;
+
+}
+
+h1{
+
+    color: #edede9;
+    background-color: #14213d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+p{
+
+    color: #edede9;
+
+}
+
+#OT{
+
+    margin-top: 10px;
+    float: right;
+
+}
+
+canvas{
+
+    background-color: #f8edeb;
+    margin-top: 40px;
+    border: 2px solid #14213d;
+    border-radius: 10px;
+    animation-name: udumb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes udumb{
+
+    from{box-shadow: 20px 20px 15px #a68a64;}
+    to{box-shadow: 20px 20px 15px #7f4f24;}
+}
